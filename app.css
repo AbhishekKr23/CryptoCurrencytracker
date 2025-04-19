@@ -1,0 +1,57 @@
+body {
+    background-color: #14213d;
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+.crypto-card {
+    background-color: #1a2a4a;
+    border: 1px solid #fc1173;
+    border-radius: 10px;
+}
+
+.price-card {
+    background-color: #1a2a4a;
+    border: 1px solid #2d3b5a;
+    border-radius: 10px;
+}
+
+.table {
+    color: white;
+}
+
+.bg-connected {
+    background-color: #28a745 !important;
+}
+
+.bg-disconnected {
+    background-color: #dc3545 !important;
+}
+
+.bg-reconnecting {
+    background-color: #ffc107 !important;
+    color: #000 !important;
+}
+
+.price-update {
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+    0% { background-color: rgba(40, 167, 69, 0.3); }
+    100% { background-color: transparent; }
+}
+
+.form-select, .btn {
+    border-radius: 8px !important;
+}
+
+option:checked {
+    background-color: #fc1173;
+    color: white;
+}
+
+#priceButton:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
